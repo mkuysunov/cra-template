@@ -1,0 +1,46 @@
+{
+  "name": "cra-templete-redux",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.4.3",
+    "@reduxjs/toolkit": "^1.8.2",
+    "axios": "^0.27.2",
+    "craco": "^0.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^8.0.2",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^8.0.0",
+    "prettier": "^2.7.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "eslint:check": "eslint src/",
+    "eslint:write": "eslint src/ --fix",
+    "prettier:write": "prettier --write src/",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "prepare": "husky install",
+    "build": "set \"GENERATE_SOURCEMAP=false\" && craco build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
